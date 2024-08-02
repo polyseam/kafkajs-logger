@@ -1,6 +1,6 @@
-import type { logCreator as LogCreator, LogEntry } from "npm:kafkajs";
-import { logLevel as LogLevel } from "npm:kafkajs";
-import * as colors from "jsr:@std/fmt/colors";
+import type { logCreator as LogCreator, LogEntry } from "kafkajs";
+import { logLevel as LogLevel } from "kafkajs";
+import * as colors from "@std/fmt/colors";
 
 const colorizeLabel = (label: string) => {
   switch (label) {
